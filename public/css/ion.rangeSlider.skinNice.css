@@ -1,0 +1,111 @@
+/* Ion.RangeSlider, Nice Skin
+// css version 2.0.3
+// © Denis Ineshin, 2014    https://github.com/IonDen
+// ===================================================================================================================*/
+
+/* =====================================================================================================================
+// Skin details */
+
+.irs-line-mid,
+.irs-line-left,
+.irs-line-right,
+.irs-bar,
+.irs-bar-edge,
+.irs-slider {
+    background: #686c6d;
+}
+
+.irs {
+    height: 35px;
+}
+.irs-with-grid {
+    height: 60px;
+}
+.irs-line {
+    height: 3px; top: 25px;
+}
+    .irs-line-left {
+        height: 3px;
+        background-position: 0 -30px;
+    }
+    .irs-line-mid {
+        height: 3px;
+        background-position: 0 0;
+    }
+    .irs-line-right {
+        height: 3px;
+        background-position: 100% -30px;
+    }
+
+.irs-bar {
+    height: 3px; top: 25px;
+    background-position: 0 -60px;
+}
+    .irs-bar-edge {
+        top: 25px;
+        height: 3px; width: 11px;
+        background-position: 0 -90px;
+    }
+
+.irs-shadow {
+    height: 1px; top: 34px;
+    background: #000;
+    opacity: 0.15;
+}
+.lt-ie9 .irs-shadow {
+    filter: alpha(opacity=15);
+}
+
+.irs-slider {
+    width: 15px;
+    height: 15px;
+    border-radius: 14px;
+    top: 17px;
+	border: 3px solid #e1f3f5;
+    background-position: 0 -120px;
+    background: #00a99e;
+}
+.irs-slider.state_hover, .irs-slider:hover {
+    background-position: 0 -150px;
+}
+
+.irs-min, .irs-max {
+    color: #999;
+    font-size: 10px; line-height: 1.333;
+    text-shadow: none;
+    top: 0; padding: 1px 3px;
+    background: rgba(0,0,0,0.1);
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+	display:none;
+}
+.lt-ie9 .irs-min, .lt-ie9 .irs-max {
+    background: #ccc;
+}
+
+.irs-from, .irs-to, .irs-single {
+    color: #19b1a6;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 10px;
+    text-shadow: none;
+    padding: 1px 5px;
+    padding-bottom: 10px;
+    margin-left: -1px;
+    padding-left: 48px;
+    background: url(../images/yearbg.png);
+    background-repeat: no-repeat;
+}
+.lt-ie9 .irs-from, .lt-ie9 .irs-to, .lt-ie9 .irs-single {
+    background: #999;
+}
+
+.irs-grid-pol {
+    background: #99a4ac;
+}
+.irs-grid-text {
+    color: #99a4ac;
+}
+
+.irs-disabled {
+}
